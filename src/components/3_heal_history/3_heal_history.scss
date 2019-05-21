@@ -1,0 +1,96 @@
+.heal-history {
+    font-family: 'PT Sans', sans-serif;
+    &__title {
+        margin: 75px 0 37px;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+    }
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .btn {
+            margin-right: 50px;
+            margin-bottom: 30px;
+        }
+    }
+    &__table-title {
+        max-width: 439px;
+        margin: 30px auto 33px;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    &__table {      
+        thead {
+            background: linear-gradient(20.41deg, #6d92d5 0%, #758fbe 100%);
+            th {
+                vertical-align: top;
+                font-size: 18px;
+                line-height: 18px;
+                font-style: normal;
+                font-weight: normal;
+                padding: 29px 30px 20px 0;
+                box-sizing: border-box;
+                &:first-child {
+                    padding-right: 60px;                    
+                }
+                &:nth-child(2) {
+                    padding-right: 70px;
+                }
+                &:nth-last-child(2) {
+                    background: linear-gradient(90deg, #ff7a19 0%, #ff7b1b  100%);
+                    padding-left: 20px;
+                }
+                &:last-child {
+                    background: linear-gradient(90deg, #ff7b1b 0%, #ff8832 100%);
+                }
+            }
+        }
+        tbody {
+            background: radial-gradient(444.00px at 0% 51.74%, #5589E7 0%, #6683B7 100%);
+            tr {
+                &:last-child {
+                    td {
+                        padding-bottom: 40px;
+                        border: 0;
+                    }
+                }
+            }  
+            td {
+                padding: 20px 0 3px;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 18px;
+                border-bottom: 0.7px solid rgba(255, 255, 255, 0.3);
+                &:first-child {
+                    border: 0;
+                }
+                &:nth-child(2) {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+                &:nth-last-child(2) {
+                    background: linear-gradient(90deg, #fe6b01 0%, #ff7511  100%);
+                    padding-left: 20px;
+                }
+                &:last-child {
+                    background: linear-gradient(90deg, #ff7511 0%, #ff8c37 100%);
+                }
+            }
+        }
+    }
+    &__table-desc-end {
+        max-width: 725px;
+        margin-top: 13px;
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,34 @@
+.header {
+    height: 123px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    &__emblem {
+        margin-right: 100px;
+    }
+    &__menu {
+        width: 600px;
+        font-family: 'PT Sans', sans-serif;
+        &-top, &-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-top {
+            margin-bottom: 12px;
+        }
+        &-el {
+            color: #000000;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+        }
+        &-tel, &-mail {
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+}
