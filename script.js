@@ -1,1 +1,1 @@
-"use strict";$('a[href*="#"]').smoothscroll({duration:300,easing:"swing"});
+"use strict";$(document).ready(function(){$(".fancy-video").fancybox(),$(".fancy-img").fancybox(),$('a[href*="#"]').smoothscroll({duration:300,easing:"swing"})}),$(".equipment__block-slider").slick({dots:!0,infinite:!1,speed:300,arrows:!1,slidesToShow:1,slidesToScroll:1}),$(".education__slider").slick({dots:!0,infinite:!1,speed:300,arrows:!1,slidesToShow:1,slidesToScroll:1});
